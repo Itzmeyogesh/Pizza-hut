@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+}
+.first{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: rgba(236, 15, 15, 0.411);
+    text-align: center;
+    border: rgba(226, 77, 77, 0.87);
+    border-radius: 10px;
+    padding: 4px;
+    margin: auto;
+    width: 70%;
+}
+.logo{
+    border-radius: 50%;
+}
+.second{
+    align-self:centre;
+    text-align: center;
+    border: 1px solid bisque;
+    padding: 30px;
+    background-color: rgba(223, 127, 18, 0.664);
+    border: none;
+    border-radius: 8px;
+   
+    width: 50%;
+    margin: auto;
+    
+    
+}
+.cover{
+    border-radius: 50%;
+}
+.third{
+    margin: auto;
+    padding: 8px;
+    border: 1px solid bisque;
+    background-color: rgba(255, 255, 255, 0.356);
+    font-family: cursive;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+input[type="text"],
+input[type="number"],
+select,
+textarea
+{
+    padding: 4px;
+    margin: 5px;
+    width: 50%;
+    font-family: cursive;
+    width: 50%;
+    display: block;
+}
+lable.small{
+    color: lightslategrey;
+}
+span{
+    color: rgba(39, 127, 243, 0.658);
+}
+form{
+    margin: 12px;
+}
+input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+input[type="submit"]:hover{
+    background-color: rgba(255, 0, 0, 0.397);
+    cursor: pointer;
+   
+}
+footer
+{
+    background-color: aqua;
+}
